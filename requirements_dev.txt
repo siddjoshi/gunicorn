@@ -7,3 +7,6 @@ setuptools>=68.0
 
 sphinx
 sphinx_rtd_theme
+
+# requirements_dev.txt
+flask
