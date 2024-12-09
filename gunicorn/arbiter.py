@@ -575,6 +575,7 @@ class Arbiter:
             (pid, _) = workers.pop(0)
             self.kill_worker(pid, signal.SIGTERM)
 
+        
         active_worker_count = len(workers)
         if self._last_logged_active_worker_count != active_worker_count:
             self._last_logged_active_worker_count = active_worker_count

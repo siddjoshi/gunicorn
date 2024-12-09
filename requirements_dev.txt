@@ -10,3 +10,4 @@ sphinx_rtd_theme
 
 # requirements_dev.txt
 flask
+tox

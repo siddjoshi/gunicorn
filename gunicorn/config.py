@@ -46,6 +46,8 @@ def auto_int(_, x):
 class Config:
 
     def __init__(self, usage=None, prog=None):
+        ## Breaks the app with Error: maximum recursion depth exceeded
+        #self.bind = '0.0.0.0:99999'
         self.settings = make_settings()
         self.usage = usage
         self.prog = prog or os.path.basename(sys.argv[0])

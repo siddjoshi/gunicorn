@@ -1,0 +1,26 @@
+Problem 1
+========
+
+- Line 49-50 in config.py
+- Hard to debug
+
+
+## Breaks the app with Error: maximum recursion depth exceeded
+#self.bind = '0.0.0.0:99999'
+
+
+Problem 2
+============
+
+
+
+Problem 3
+============
+
+
+Problem 4
+============
+
+
+Problem 5
+===========

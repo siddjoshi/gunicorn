@@ -10,6 +10,7 @@ def hello():
 
 class FlaskApp(WSGIApplication):
     def init(self, parser, opts, args):
+        self.app_uri = "flaskapp:app"
         return {
             'bind': '0.0.0.0:8000',
             'workers': 4,

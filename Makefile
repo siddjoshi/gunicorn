@@ -3,8 +3,8 @@ ifeq ($(OS),Windows_NT)
     PYTHON = .venv\Scripts\python.exe
     PIP = .venv\Scripts\pip.exe
 else
-    PYTHON = .venv/bin/python
-    PIP = .venv/bin/pip
+    PYTHON = venv/bin/python
+    PIP = venv/bin/pip
 endif
 
 build:
